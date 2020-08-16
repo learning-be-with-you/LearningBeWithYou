@@ -83,7 +83,7 @@
 	</div>
 </div>
 <footer>
-	フッターデース！
+	フッターデース
 </footer>
 </body>
 </html>
