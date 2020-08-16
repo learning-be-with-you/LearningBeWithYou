@@ -25,7 +25,7 @@
 			<h2 class = "section-title" style = "text-align:center;">マイページ</h2>
 			<div class = "row">
 				<div class = "col-lg-3 col-md-3 col-sm-3 col-xs-3">
-					<img src = "IMG/daibutsu.jpg" alt = "プロフィール画像">
+					<img src = "IMG/daibutsu.jpg" alt = "プロフィール画像" style = "width:200px; height:200px;">
 				</div>
 				<div class = "col-lg-9 col-md-9 col-sm-9 col-xs-9">
 					<p>ID:1234567</p>
