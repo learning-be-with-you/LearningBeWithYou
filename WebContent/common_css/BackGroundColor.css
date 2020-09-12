@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.bc-red {
+	background-color: red;
+}
+
+.bc-yellow {
+	background-color: yellow;
+}
+
+.bc-gray {
+	background-color: lightgray;
+}
+
+.bc-blue {
+	background-color: lightblue;
+}
+
+.bc-pink {
+	background-color: pink;
+}
+
+.bc-green {
+	background-color: lightgreen;
+}
+
+.bc-orange {
+	background-color:orange;
+}
+
+.bc-indigo {
+	background-color:indigo;
+}
