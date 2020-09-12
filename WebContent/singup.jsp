@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ログイン</title>
+<title>サインアップ</title>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet"
@@ -36,20 +36,36 @@
 			<form class="col-md-12">
 			  <div class="form-group">
 			    <label for="input_id">ID</label>
-			    <input type="text" class="form-control" id="input_id" placeholder="IDを入力してください">
+			    <input type="text" class="form-control" id="input_id" placeholder="４〜２０文字">
+			  </div>
+			  <div class="form-group">
+			    <label for="input_password">ニックネーム</label>
+			    <input type="email" class="form-control" id="input_password" placeholder="４〜２０文字">
 			  </div>
 			  <div class="form-group">
 			    <label for="input_password">パスワード</label>
-			    <input type="email" class="form-control" id="input_password" placeholder="パスワードを入力してください">
+			    <input type="email" class="form-control" id="input_password" placeholder="８〜１６文字">
 			  </div>
-			  <button type="submit" class="btn btn-primary mb-2">ログイン</button>
+			  <div class="form-group">
+			    <label for="input_password">パスワード確認</label>
+			    <input type="email" class="form-control" id="input_password" placeholder="再度パスワードを入力してください">
+			  </div>
+			  <div class="form-group">
+			    <label for="input_password">プロフィール</label>
+			    <input type="email" class="form-control" id="input_password" placeholder="再度パスワードを入力してください">
+			  </div>
+			  <div class="form-group">
+			    <label for="input_password">プロフィール画像</label>
+			    <div class="custom-file">
+			      <input type="file" class="custom-file-input" id="inputFile">
+			      <label class="custom-file-label" for="inputFile" data-browse="参照">ファイルを選択(ここにドロップすることもできます)</label>
+			    </div>
+			  </div>
+			  <button type="submit" class="btn btn-primary mb-2">サインアップ</button>
 			</form>
 			<div style="padding-top: 20px;">
 				<p>
-					「ID」または「パスワード」を忘れた方は"<a href="#">こちら</a>"
-				</p>
-				<p>
-					 　まだ会員登録されてない方は"<a href="#">こちら</a>"
+					　会員登録済みの方は"<a href="#">こちら</a>"
 				</p>
 			</div>
 		</div>
@@ -58,5 +74,9 @@
 <footer class="bc-redß">
 	フッターデース
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.js"></script>
+<script>
+  bsCustomFileInput.init();
+</script>
 </body>
 </html>
