@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ユーザー情報編集</title>
+<title>ユーザー情報確認</title>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="CSS/bootstrap.css">
@@ -24,8 +24,8 @@
 <div class = "container">
 	<div class = "row">
 		<div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<h2 class = "section-title" style = "text-align:center;">ユーザー情報編集</h2>
-			<p>ユーザー情報を編集します。修正する内容を入力してください。</p>
+			<h2 class = "section-title" style = "text-align:center;">編集情報確認</h2>
+			<p>以下の内容でユーザー情報を編集します。内容をご確認ください。</p>
 			<form action = "edit_user"method = "POST">
 				<div class = "form-group">
 					<table class = "table">
@@ -38,38 +38,19 @@
 						<tr>
 							<th>ユーザー名</th>
 							<td>
-								<input type = "text" name = "userName" value = "ユーザー名" class = "form-control">
+								<p>海馬瀬人</p>
 							</td>
 						</tr>
 						<tr>
 							<th>プロフィール</th>
 							<td>
-								<textarea name = "profile" class = "form-control" rows="5" maxlength="20">大仏 ＝ エクゾディア</textarea>
+								<p>滅びの爆裂疾風弾！！</p>
 							</td>
 						</tr>
 						<tr>
 							<th>プロフィール画像</th>
 							<td>
-								<div class="imagePreview"
-									style = "width: 100%; height: 200px; background-position: center center; background-size: cover;
-										 -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3); display: inline-block;">
-								</div>
-								<div class="input-group">
-    								<label class="input-group-btn">
-        								<span class="btn btn-primary">
-            								ファイル選択<input type="file" style="display:none" class="uploadFile">
-        								</span>
-    								</label>
-    								<input type="text" class="form-control" readonly="">
-								</div>
-							</td>
-					</table>
-					<input type = "checkbox" name = "passwordEditCheck" class = "form-check-input">パスワードを変更する
-					<table class = "table form-display" id = "hidden-table">
-						<tr>
-							<th>パスワード</th>
-							<td>
-								<input type = "password" name = "password" class = "form-control">
+								<img src="IMG/kaiba.jpg" alt = "プロフィール画像" style = "width:200px; height:200px;">
 							</td>
 						</tr>
 					</table>
@@ -79,11 +60,11 @@
 					<input type = "hidden" name = "editKey" value = "confilm">
 					<input type = "submit" value = "確認画面へ" class="btn btn-info" style = "margin:10px 0;"><br>
 				-->
-					<a href = "edit_user_confilm.jsp">
-						<input type = "button" value = "確認画面へ" class="btn btn-info"  style = "margin: 10px 0;"><br>
-					</a>
 					<a href = "mypage.jsp">
-						<input type = "button" value = "マイページへ" class="btn btn-info"  style = "margin: 10px 0;">
+						<input type = "button" value = "更新する" class="btn btn-info"  style = "margin: 10px 0;"><br>
+					</a>
+					<a href = "edit_user.jsp">
+						<input type = "button" value = "入力画面へ" class="btn btn-info"  style = "margin: 10px 0;">
 					</a>
 				</div>
 			</form>
