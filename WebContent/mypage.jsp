@@ -33,7 +33,8 @@
 					<p>大仏 ＝ エクゾディア</p>
 				</div>
 			</div>
-			<p><a href = "#">ユーザー情報編集</a>
+			<p><a href = "edit_user.jsp">ユーザー情報編集</a></p>
+			<p><a href = "unsubscribe.jsp">サービスから退会する</a></p>
 			<h3>投稿一覧</h3>
 			<div>
 				<p>2020年8月16日</p>
